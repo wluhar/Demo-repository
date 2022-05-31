@@ -2,7 +2,7 @@ const Jokes=document.querySelector('.jokes');
 const Jokesbtn=document.querySelector('.joke-btn');
 
 
-
+//something
 Jokesbtn.addEventListener('click',generateJokes);
 
 generateJokes()
