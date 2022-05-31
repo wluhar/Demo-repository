@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&family=Water+Brush&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Tapestry',sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:100vh;
+    border:0;
+    overflow: hidden;
+    background-color: #686de0;
+    padding:20px;
+}
+
+.container{
+    background-color: #fff;
+    padding:50px 20px;
+    width:800px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0px 10px 20px rgba(0,0,0,0.1),0 6px 6px rgba(0,0,0,0.1);
+}
+
+h3{
+    opacity:0.5;
+    letter-spacing: 2px;
+    margin:0;
+}
+
+.jokes{
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-size:30px;
+    margin:50px auto;
+    max-width:600px;
+}
+
+.joke-btn{
+    border:0;
+    background-color: #9f68e0;
+    padding:20px;
+    color:#fff;
+    border-radius:20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
+    font-size:1rem;
+    cursor:pointer;
+}
+
+.joke-btn:focus{
+    outline:0;
+}
+
+.joke-btn:active{
+    transform:scale(0.98);
+}
